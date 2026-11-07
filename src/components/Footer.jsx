@@ -120,6 +120,29 @@ export default function Footer() {
                   Bulk & Wholesale Sales Only
                 </span>
               </div>
+
+              {/* Social Media Links */}
+              <div className="pt-2">
+                <span className="text-[11px] text-slate-400 block mb-2">Connect With Us:</span>
+                <div className="flex items-center gap-2">
+                  {[
+                    { name: "Facebook", url: companyContactInfo.socials.facebook },
+                    { name: "Instagram", url: companyContactInfo.socials.instagram },
+                    { name: "TikTok", url: companyContactInfo.socials.tiktok },
+                    { name: "X", url: companyContactInfo.socials.x },
+                  ].map((s) => (
+                    <a
+                      key={s.name}
+                      href={s.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="px-2 py-1 text-[10px] rounded bg-white/10 text-slate-300 hover:text-brand-yellow hover:bg-white/20 transition border border-white/5"
+                    >
+                      {s.name}
+                    </a>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
 

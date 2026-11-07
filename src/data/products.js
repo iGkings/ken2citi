@@ -18,8 +18,10 @@ export const companyContactInfo = {
   address: "197, Borno Way, Ebute-Metta, Lagos, Nigeria",
   openingHours: "Mon - Sat: 8:00 AM - 6:00 PM | Bulk Delivery Available Nationwide",
   socials: {
-    facebook: "https://facebook.com",
-    instagram: "https://instagram.com",
+    facebook: "https://facebook.com/ken2citicool-placeholder",
+    instagram: "https://instagram.com/ken2citicool-placeholder",
+    tiktok: "https://tiktok.com/@ken2citicool-placeholder",
+    x: "https://x.com/ken2citicool-placeholder",
     whatsapp: "https://wa.me/2348069690775"
   }
 };

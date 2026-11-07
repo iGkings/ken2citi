@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
+import StickySocials from './components/StickySocials';
 
 // Pages
 import Home from './pages/Home';
@@ -41,6 +42,9 @@ export default function App() {
             <Route path="*" element={<Home />} />
           </Routes>
         </main>
+
+        {/* Sticky Floating Social Media Links */}
+        <StickySocials />
 
         {/* Global Floating WhatsApp Button */}
         <WhatsAppButton />
